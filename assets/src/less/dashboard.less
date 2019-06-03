@@ -1,0 +1,155 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 6, 2017, 10:57:42 AM
+    Author     : rafsun
+*/
+
+.dokan-dashboard-content {
+    
+    article.dashboard-content-area {
+
+        .dokan-announcement-widget {
+            min-height: 310px;
+
+            .dokan-no-announcement {
+                .annoument-no-wrapper {
+                    height: 100%;
+                    margin: 70px auto;
+                    text-align: center;
+
+                    .dokan-announcement-icon {
+                        font-size: 100px;
+                        color: #e3e3e3;
+                        -moz-animation: ring 8s 1s ease-in-out infinite !important;
+                        -moz-transform-origin: 50% 4px;
+                        -webkit-animation: ring 8s 1s ease-in-out infinite !important;
+                        -webkit-transform-origin: 50% 4px;
+                        animation: ring 8s 1s ease-in-out infinite !important;
+                        transform-origin: 50% 4px;
+
+                    }
+
+                    p{
+                        margin-top:10px;
+                        color: #a6a6a6;
+                        font-size: 18px;
+                    }
+                }
+
+            }
+
+            .widget-title {
+                margin-bottom: 0px;
+            }
+
+            ul {
+                margin-bottom: 0px;
+                li {
+                    border-bottom: 1px solid #e8e8e8;
+
+                    .dokan-dashboard-announce-content {
+                        width:80%;
+                        font-size: 13px;
+                        color: #656565;
+                        padding-left: 4px;
+                        h3 {
+                            font-size: 15px;
+                            font-weight: bold;
+                            margin:16px 0px 0px;
+                            padding:5px 0px;
+                            color: #6f6f6f;
+                        }
+                    }
+
+                    .dokan-dashboard-announce-date {
+                        width:20%;
+                        height:77px;
+                        text-align: center;
+                        line-height: 20px;
+                        margin:7px 0px;
+                        .announce-day {
+                            padding-top:5px;
+                            font-size:15px;
+                            font-weight: bold;
+                        }
+                        .announce-year {
+                            font-size: 15px;
+                        }
+                    }
+
+                    .dokan-dashboard-announce-read {
+                        background-color: #f3f3f3;
+                        color:#8b8b8b;
+                    }
+
+                    .dokan-dashboard-announce-unread {
+                        background-color: #f05025;
+                        color:#f3f3f3;
+                    }
+
+                    &:last-child {
+                        border-bottom: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@-webkit-keyframes ring {
+    0% { transform: rotate(0); }
+    1% { transform: rotate(30deg); }
+    3% { transform: rotate(-28deg); }
+    5% { transform: rotate(34deg); }
+    7% { transform: rotate(-32deg); }
+    9% { transform: rotate(30deg); }
+    11% { transform: rotate(-28deg); }
+    13% { transform: rotate(26deg); }
+    15% { transform: rotate(-24deg); }
+    17% { transform: rotate(22deg); }
+    19% { transform: rotate(-20deg); }
+    21% { transform: rotate(18deg); }
+    23% { transform: rotate(-16deg); }
+    25% { transform: rotate(14deg); }
+    27% { transform: rotate(-12deg); }
+    29% { transform: rotate(10deg); }
+    31% { transform: rotate(-8deg); }
+    33% { transform: rotate(6deg); }
+    35% { transform: rotate(-4deg); }
+    37% { transform: rotate(2deg); }
+    39% { transform: rotate(-1deg); }
+    41% { transform: rotate(1deg); }
+    43% { transform: rotate(0); }
+    100% { transform: rotate(0); }
+}
+
+@-moz-keyframes ring {
+    0% { transform: rotate(0); }
+    1% { transform: rotate(30deg); }
+    3% { transform: rotate(-28deg); }
+    5% { transform: rotate(34deg); }
+    7% { transform: rotate(-32deg); }
+    9% { transform: rotate(30deg); }
+    11% { transform: rotate(-28deg); }
+    13% { transform: rotate(26deg); }
+    15% { transform: rotate(-24deg); }
+    17% { transform: rotate(22deg); }
+    19% { transform: rotate(-20deg); }
+    21% { transform: rotate(18deg); }
+    23% { transform: rotate(-16deg); }
+    25% { transform: rotate(14deg); }
+    27% { transform: rotate(-12deg); }
+    29% { transform: rotate(10deg); }
+    31% { transform: rotate(-8deg); }
+    33% { transform: rotate(6deg); }
+    35% { transform: rotate(-4deg); }
+    37% { transform: rotate(2deg); }
+    39% { transform: rotate(-1deg); }
+    41% { transform: rotate(1deg); }
+    43% { transform: rotate(0); }
+    100% { transform: rotate(0); }
+}

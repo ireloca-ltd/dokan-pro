@@ -1,0 +1,126 @@
+.dokan-verify-links{
+    padding-left: 20px;
+}
+.dokan-verify-links div{
+    padding-bottom: 10px;
+}
+.dokan-verify-links img{
+    width: 120px;
+    height: 120px;
+}
+.dokan_verify_dc_button{
+    display: inline-block;
+}
+
+.dokan_verify_dc_button button.dokan-btn.dokan-btn-block{
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.dokan-verify-connect-btn{
+    margin-top: 15px;
+}
+.dokan-verify-info{
+    padding-left: 20px;
+}
+.dokan_v_id .dokan-gravatar-img{
+    width: 200px;
+    height: 200px;
+}
+
+.dokan_v_id .radio {
+    margin-top: 0px;
+    margin-right: 65px;
+}
+.dokan_v_id .dokan-form-horizontal {
+    text-align: left;
+}
+.clickable
+{
+    cursor: pointer;
+}
+.dokan-verify-photo-id{
+    margin-top: 20px;
+}
+/*.dokan_v_submit_wrapper{
+    width: 160px;
+    margin-top: 50px;
+}*/
+
+input#dokan_v_id_submit {
+  margin-top: 10px;
+  width: 160px;
+}
+button.dokan-v-start-btn{
+    margin-bottom: 20px;
+}
+
+#dokan-verify-address-form label{
+    margin-top: 7px;
+}
+
+#dokan_v_address_submit, #dokan_v_phone_submit, #dokan_v_code_submit{
+    margin-left: 23%;
+}
+input.dokan-v-cancel-btn{
+    margin-top : 10px;
+}
+.dokan-verification-content input.dokan-btn{
+    margin-right: 10px;
+}
+
+.dokan-address-fields label{
+   font-weight: normal !important;
+}
+
+#dokan-verification-list i{
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 5px;
+    font-size : 1.7em;
+}
+
+i.verification-icon {
+    color: #4EA00E;
+}
+
+#dokan-verification-list .fa-facebook-square{
+    color :#0064cd;
+}
+
+#dokan-verification-list .fa-twitter-square{
+    color: #5EA9DD;
+}
+
+#dokan-verification-list .fa-linkedin-square{
+    color : #1C87BD;
+}
+
+.fa-google-square:before{content:"\f1a0"}
+#dokan-verification-list .fa-google-square{
+    color : #DC4A38;
+}
+
+#dokan-verification-list ul.fa-ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#dokan-verification-list ul.fa-ul li {
+    padding: 8px 0;
+}
+
+#dokan-verification-list ul.fa-ul li span {
+    padding-left: 5px;
+}
+
+.dokan-va-row {
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
+
+.dokan-panel-body .document-box{
+    margin-left: 20px;
+}

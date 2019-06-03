@@ -1,0 +1,89 @@
+#dokan-spmv-products-admin {
+
+    hr {
+        opacity: 0.5;
+        margin: 18px 0
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: 500;
+        font-size: 1.3em;
+    }
+
+    ul.dokan-spmv-products-admin-vendors {
+        margin: 0;
+
+        li {
+            padding: 0;
+            margin: 0px 0 5px;
+            border: 1px solid #ddd;
+            width: 250px;
+            position: relative;
+            height: 32px;
+
+            img {
+                width: 22px;
+                height: auto;
+                border-radius: 50%;
+                border: 1px solid #eaeaea;
+                position: absolute;
+                top: 4px;
+                left: 5px;
+            }
+
+            .shop-name {
+                text-decoration: none;
+                line-height: 32px;
+                margin-left: 40px;
+
+                .product-status {
+                    color: #848484;
+                    font-size: 0.8em;
+                    text-transform: lowercase;
+                }
+            }
+
+            .delete-product {
+                position: absolute;
+                top: 6px;
+                right: 10px;
+                font-size: 18px;
+                color: #c3c3c3;
+                cursor: pointer;
+
+                &:hover {
+                    color: #444;
+                }
+            }
+        }
+    }
+
+    #dokan-spmv-products-admin-assign-vendors {
+        display: block;
+        width: 250px;
+    }
+
+    #dokan-spmv-products-admin-assign-vendors-btn {
+        display: block;
+        margin-top: 8px;
+    }
+}
+
+.dokan-spmv-vendor-dropdown-results__avatar {
+    display: inline-block;
+    float: left;
+
+    img {
+        width: 22px;
+        height: auto;
+        border-radius: 50%;
+        border: 1px solid #eaeaea;
+    }
+}
+
+.dokan-spmv-vendor-dropdown-results__title {
+    line-height: 1.7;
+    padding-left: 28px;
+}

@@ -1,0 +1,51 @@
+.dokan-product-list-inline-edit-form {
+
+    fieldset {
+        padding: 0;
+        margin: 0;
+    }
+
+    .dokan-inline-edit-column {
+        padding: 0 10px;
+    }
+
+    .dokan-inline-edit-field-row {
+        margin-bottom: 10px;
+    }
+
+    hr {
+        display: block;
+        margin: 12px 0;
+        opacity: 0;
+    }
+
+    .dokan-inline-edit-section-title {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 13px;
+        text-transform: uppercase;
+    }
+
+    label {
+        display: block;
+        margin: 8px 0 4px;
+        font-size: 14px;
+    }
+
+    .inline-edit-submit-button {
+        position: relative;
+
+        .dokan-spinner {
+            top: 8px;
+            left: -30px;
+            visibility: hidden;
+        }
+
+        &.show-loading-animation {
+
+            .dokan-spinner {
+                visibility: visible;
+            }
+        }
+    }
+}

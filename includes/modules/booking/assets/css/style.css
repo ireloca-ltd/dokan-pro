@@ -1,0 +1,191 @@
+.dokan-booking-range-table,
+.dokan-booking-range-table tr{
+    border: 1px solid #eee;
+    width: 100%;
+}
+.dokan-booking-range-table .dokan-tooltips-help{
+    margin-left: 0px;
+}
+.woocommerce_booking_resource .edit_resource{
+    display: none;
+}
+.woocommerce_booking_resource .remove_booking_resource, .woocommerce_booking_person button{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    margin-bottom : 5px;
+    color: #ffffff;
+    background-color: #f05025;
+}
+.woocommerce_booking_person, .woocommerce_booking_resource{
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.woocommerce_booking_person table.wc-metabox-content tr, .woocommerce_booking_resource table.wc-metabox-content tr{
+    border: 1px solid #eee;
+    width: 100%;
+}
+.woocommerce_booking_person table.wc-metabox-content td, .woocommerce_booking_resource table.wc-metabox-content td{
+    padding : 8px;
+}
+
+.woocommerce_booking_resource h3, .woocommerce_booking_person h3 {
+    margin-top: 0px;
+}
+#bookings_persons p.toolbar{
+    margin-top : 10px;
+}
+.wc_bookings_calendar_form .wc_bookings_calendar td{
+    font-size : 100% !important;
+}
+.wc-bookings-booking-form input, .wc-bookings-booking-form select{
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #ededed;
+    padding: 4px 6px;
+    border-radius: 0;
+    color: #555555;
+    display: block;
+    font-size: 14px;
+    min-height: 26px;
+    line-height: 26px;
+    vertical-align: middle;
+    width: 100%;
+    margin: 0;
+}
+.wc-bookings-date-picker span.label{
+    color : #444;
+}
+
+// Bookings Listing styles
+
+.type-wc_booking .column-booking_status, th.column-booking_status {
+    text-align: center;
+    width: 48px;
+}
+.type-wc_booking .column-booking_status span.status-pending-confirmation:before {
+    content: "\e012";
+    color: #ffba00;
+}
+.type-wc_booking .column-booking_status span.status-confirmed:before {
+    content: "\e011";
+    color: #7ad03a;
+}
+.type-wc_booking .column-booking_status span.status-complete:before {
+    content: "\e015";
+    color: #999;
+}
+.type-wc_booking .column-booking_status span.status-incart:before,
+.type-wc_booking .column-booking_status span.status-unpaid:before {
+    content: "\e033";
+}
+.type-wc_booking .column-booking_status span:before {
+    font-family: woocommerce;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: "\e001";
+    font-size: 1.4em;
+}
+
+.dokan-booking-label-in-cart, .dokan-booking-label-unpaid{
+    color: #eee;
+    background-color: #444;
+}
+
+.dokan-booking-label-paid{
+    color: #000;
+    background-color: #2ea2cc;
+}
+
+.dokan-booking-label-pending-confirmation{
+    color: #000;
+    background-color: #ffba00;
+}
+
+.dokan-booking-label-cancelled{
+    color: #000;
+    background-color: #cf1515;
+}
+
+.dokan-booking-label-complete{
+    color: #000;
+    background-color: #999;
+}
+
+.dokan-booking-label-confirmed{
+    color: #000;
+    background-color: #7ad03a;
+}
+
+span.dokan-booking-label{
+    font-weight: bold;
+}
+
+select#booking_order_status{
+    margin: 6px 0px;
+}
+.tips{
+    cursor: pointer !important;
+}
+
+.select2-container{
+    z-index: 99999;
+}
+
+div.dokan-booking-wrapper ul.dokan_tabs .active{
+    font-size:1.1em;
+    border-top : 2px solid #f05025;
+}
+
+div.dokan-booking-wrapper input.dokan-btn{
+    margin-top : 10px;
+}
+
+.dokan-booking-wrapper a.dokan-cancel-status{
+    margin-top:10px;
+}
+
+.dokan-booking-wrapper label.checkbox-item.form-label.show_if_variable{
+    display:none
+}
+
+.dokan-booking-day-restriction {
+  border: 1px solid #decfcf;
+  margin-bottom: 10px;
+}
+.dokan-booking-day-restriction td {
+  padding: 8px 10px;
+}
+.dokan-booking-day-restriction td .checkbox {
+  vertical-align: middle;
+  margin: 4px auto;
+}
+
+.dokan-booking-day-restriction table {
+  width: 100%;
+}
+

@@ -1,0 +1,24 @@
+#loading{
+	position: absolute;
+	top: 10%;
+	left: 45%;
+	opacity: 1;
+	display: none;
+}
+
+.dokan-ajax-search-category{
+	border:none;
+	background-color: #eeeeee;
+	width: 90px;
+	height: auto;
+	padding-left: 3px;
+}
+
+.ajaxsearchform .input-group-addon{
+	padding: 0px;
+}
+
+.site-header .widget_dokna_product_search {
+	max-width: 70%;
+	float: right;
+}

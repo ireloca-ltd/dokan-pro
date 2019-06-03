@@ -1,0 +1,50 @@
+v1.4.0 - 7 August, 2017
+-------------------------
+[new]   - added template action hook `dokan_booking_load_menu_template`
+[new]   - Cancellation date field on product edit template
+[new]   - Enable Range Picker field on product edit template
+[new]   - Adjacent Buffer period field on product edit template
+[new]   - Check availability against first block field on product edit template
+[new]   - First block field on vendor product edit template
+[new]   - Shipping and tax section on product edit template
+[new]   - Booking info section on Order details
+[fix]   - Icon missing on Availability section on product edit template
+[fix]   - Emails not sent properly
+[fix]   - Person types can not be removed from product
+[fix]   - Resource edit page warning issue
+[fix]   - Calendar day view not showing booking data
+[tweak] - Make compatible to WC Booking 1.10.5+
+[tweak] - Various other code enhancements and optimizations
+
+v1.3.0 - 8 May, 2017
+-------------------------
+[new]   - WooCommerce v3.0+ and WooCommerce Booking v1.10+ compatibility.
+[new]   - Added action `dokan_booking_after_product_data_saved` after saving booking product data
+[new]   - Template override support added
+[new]   - Attribute options for bookable products
+[new]   - Visibility options for bookable products
+[fix]   - Product list view errors
+[fix]   - New product template and gallery
+[fix]   - Vendor dashboard booking details view updated.
+[fix]   - Vendor order view permission for sub-orders.
+[tweak] - Flush rewrite rules added on activation
+[tweak] - Various styles updated for tab nav and buttons
+
+v1.2.0 - 20 March, 2017
+-------------------------
+[new]   - Email templates are now customizable from woocommerce email settings.
+[fix]   - Disable adding products if seller is not enabled.
+[fix]   - Fixed multiple category choose option on product page.
+[fix]   - New booking email is now sent to vendors.
+[tweak] - Templates made compatible to Dokan v2.5.1.
+[tweak] - Various other code optimization.
+
+v1.1.0 - 21 December, 2016
+-------------------------
+[tweak] - Booking navigation upgraded to tabbed view
+[tweak] - New product template made compatible with Dokan 2.5.1
+[tweak] - Category and Tag dropdown upgraded to select2 for better UX
+
+v1.0 - 29 September, 2016
+-------------------------
+- Initial Release

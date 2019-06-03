@@ -1,0 +1,95 @@
+table.dps-shipping-table {
+    padding: 10px;
+    width:100%;
+
+    tr {
+        padding:10px;
+
+        td{
+            padding:10px;
+        }
+    }
+
+}
+
+table.dps-shipping-states {
+    padding: 10px;
+    width:100%;
+
+    tr {
+        padding:10px;
+
+        td{
+            padding:10px;
+            width:30%;
+        }
+    }
+}
+
+#dps-shipping-hidden-lcoation-content {
+    display: none;
+}
+
+.dokan-shipping-location-wrapper {
+    border-top: 1px solid @borderColor;
+    padding-top: 15px;
+    margin-top: 30px;
+
+    .dps-shipping-location-content {
+        border: 2px solid #eee;
+        // padding:10px;
+        margin-bottom: 15px;
+        position: relative;
+
+        table tr td {
+            padding: 10px 15px;
+        }
+
+        table.dps-shipping-table {
+            background: #F5F5F5;
+        }
+
+        table.dps-shipping-table tr td {
+            width: 50%;
+        }
+
+        .dps-shipping-remove {
+            position:absolute;
+            top: -1px;
+            right: -1px;
+            height: 25px;
+            width: 25px;
+            background: #fff;
+            color: #ccc;
+
+            &:hover {
+                color: #fff;
+                background: #ccc;
+            }
+        }
+
+        table.dps-shipping-states {
+            text-align: center;
+
+            tr {
+                td {
+                    &:last-child {
+                        vertical-align: middle;
+                    }
+                }
+            }
+            .dps-add, .dps-remove {
+                color: #A8A8A8;
+                font-size: 11px;
+                border: 1px solid #eee;
+                padding: 3px 5px 2px 5px;
+                border-radius: 3px;
+
+                &:hover {
+                    background: #eee;
+                }
+            }
+        }
+    }
+
+}

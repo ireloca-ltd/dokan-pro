@@ -1,0 +1,230 @@
+.clearfix() {
+    &:before,
+    &:after {
+        content: " "; // 1
+        display: table; // 2
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+.dokan-settings-wrap .dashicons{
+
+    &.dashicons-store {
+        color: #f39c12;
+    }
+
+    &.dashicons-controls-repeat {
+        color: #3d566e;
+    }
+
+    &.dashicons-unlock {
+        color: #3498db;
+    }
+
+    &.dashicons-email {
+        color: #e74c3c;
+    }
+
+    &.dashicons-admin-customizer {
+        color: #16a085;
+    }
+}
+
+
+.admin-report-container {
+    .clearfix();
+    margin-top: 10px;
+
+    .dokan-reports-sidebar {
+        width: 20%;
+        float: left;
+        margin-right: 20px;
+    }
+
+    ul.chart-legend {
+        background: #fff;
+        list-style: none;
+        margin: 12px 0 0 0;
+        padding: 0;
+        border: 1px solid #EDEDED;
+
+        li {
+            color: #aaa;
+            padding: 13px 18px;
+            margin: 0;
+            border-bottom: 1px solid #EDEDED;
+            font-weight: normal;
+            font-size: 13px;
+
+            strong {
+                display: block;
+                color: #464646;
+                font-size: 24px;
+                line-height: 30px;
+                font-weight: normal;
+            }
+        }
+    }
+
+    .chart-container {
+        float: left;
+        width: 75%;
+    }
+
+    .chart-placeholder.main {
+        width: 100%;
+        height: 450px;
+    }
+}
+
+.chart-tooltip {
+    position: absolute;
+    display: none;
+    line-height: 1;
+    background: #333;
+    color: #fff;
+    padding: 3px 5px;
+    font-size: 11px;
+    border-radius: 3px;
+}
+
+.dokan-toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 26px;
+}
+
+.dokan-toggle-switch input {
+    display:none;
+}
+
+.dokan-toggle-switch .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.dokan-toggle-switch .slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.dokan-toggle-switch input:checked + .slider {
+    background-color: #0073aa;
+}
+
+.dokan-toggle-switch input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+.dokan-toggle-switch input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+.dokan-modules {
+    margin-top: 15px;
+    overflow: hidden;
+
+    .plugin-card {
+        border: 1px solid #e5e5e5;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+
+        .plugin-name {
+            color: #0073aa;
+        }
+
+        .desc,
+        .name {
+            margin-left: 115px;
+        }
+
+        .plugin-card-top {
+            min-height: 110px;
+        }
+
+        .plugin-icon {
+            width: 96px;
+            height: 96px;
+            margin: 0 20px 0px 0;
+        }
+    }
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 18px;
+    input {
+       display: none;
+       &:checked + .slider {
+            background-color: #64b450;
+            &:before {
+                -webkit-transform: translateX(22px);
+                -ms-transform: translateX(22px);
+                transform: translateX(22px);
+            }
+       }
+       &:focus + .slider {
+            box-shadow: 0 0 1px #2196F3;
+       }
+    }
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+
+        &:before {
+            position: absolute;
+            content: "";
+            height: 14px;
+            width: 14px;
+            left: 2px;
+            bottom: 2px;
+            background-color: white;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+        &.round {
+            border-radius: 34px;
+            &:before {
+                border-radius: 50%;
+            }
+        }
+    }
+}

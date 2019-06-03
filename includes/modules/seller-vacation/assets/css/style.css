@@ -1,0 +1,15 @@
+/**
+ * Added some styles in frontend
+ */
+
+.show_if_go_vacation, .datewise_close_store{
+	display: none;
+}
+
+.post-status .vacation {
+	background-color: rgb(167, 77, 64);
+}
+
+.show_if_go_vacation .dokan-w5 {
+    text-align: left;
+}

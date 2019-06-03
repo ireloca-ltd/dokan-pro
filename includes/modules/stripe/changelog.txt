@@ -1,0 +1,32 @@
+====== Changelog ======
+v1.3.2 ~~> Date: March 20, 2017
+-----------------------------
+- [fix] Fixed showing pop up whenever other payment gateway is selected.
+- [fix] Fixed showing invalid warning on empty cart.
+- [fix] Fixed issues while buying subscription products.
+- [tweak] Seller texts changed to Vendor.
+
+v1.3.1 ~~> Date: August 17, 2016
+-----------------------------
+- [fix] Seller could not add product if no key
+- [fix] Depricated function issue
+
+v1.3 ~~> Date: November 22, 2015
+-----------------------------
+- [new] Automatically withdraw Stripe charged money for sellers
+- [tweak] Remove withdraw query var to prevent access to withdraw page via url
+- [tweak] Payment method title and order note changed
+- [fix] Logged in user not getting connected, issue fix
+
+v1.2 ~~> Date: June 20, 2015
+-----------------------------
+- Fix Js checkout problem in stripe.js
+
+v1.1 ~~> Date: June 6, 2015
+-----------------------------
+- Added option to disconnect stripe
+- Don't charge to stripe if a free product
+
+v1.0 ~~> Date: March 25, 2015
+-----------------------------
+- Initial Release
