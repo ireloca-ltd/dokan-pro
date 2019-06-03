@@ -1,0 +1,73 @@
+====== Changelog ======
+
+v1.2.0 ~~> 8 June, 2017
+========================
+
+- [new] Menu order added for displaying subscription package on vendor dashbaord
+- [new] Different commission rate for different packge
+- [new] Subscription product pack design changed
+- [new] Added category restriction with subscription pack
+- [fix] Paypal subscription cancelling from admin area
+- [fix] WooCommerce 3.0+ compatibility
+- [fix] Debug log fatal error problem
+- [fix] Visibility data is not saving doing the subscription pack creation
+- [fix] Recurring billing info is not showing properly in subscription product pack
+
+v1.1.5 ~~> 9 May, 2017
+========================
+
+- [new] Added language pot file
+- [fix] Product count issue fixed for subscribed vendor
+- [fix] Edit product restriction problem fixed
+- [fix] Remove old logger system
+- [fix] Fix rewrite rules flushing system on activation
+- [fix] Subscription issue counting issue
+- [tweak] Make compatibale with WooCommerce v3.0+
+
+v1.1.4 ~~> 14 August, 2016
+========================
+
+- [tweak] Add details on subscription product list
+- [fix] Extra product on subscription renewal is prohibited
+- [fix] Disable buy button if user already subscribed
+- [fix] Delete subscription meta for unnecessery IPN response of multiple subscription
+
+v1.1.3 ~~> 3 January, 2016
+========================
+
+- [tweak] Show all subscriptions
+
+v1.1.2 ~~> 23 November, 2015
+========================
+
+- [tweak] Added text non recurring warning in user assign pack
+- [fix] Text domain fixed
+- [fix] Word typo fix
+- [fix] Settings text issue fixed
+- [fix] Fix udpater slug issue
+
+v1.1.1 ~~> 26 August, 2015
+========================
+
+- [tweak] Assign pack button added to the admin panel of user profile
+- [fix] Undefined index add_to_cart error fixed
+- [fix] Fix susbcription cancel problem
+- [fix] Fix Subscription pack assigning issue in admin panel
+- [fix] Fix spelling and sentence issue
+
+v1.1 ~~> 29 July, 2015
+========================
+
+- [fix] fix styling issue in subscription pack
+- [fix] Added option seller registration subscription pack
+- [fix] Fix paypal argument issue and, fix txn_type ipn handler
+- [fix] Dokan 2.4 compatibility
+
+v1.0.1 ~~> 11 March, 2015
+========================
+- [fix] Plugin was causing blank page with new WooCommerce 2.3.5
+
+
+v1.0
+========================
+Initial release

@@ -1,0 +1,24 @@
+v1.2 -> 20 December, 2016
+------------------------
+
+- [Tweak] Compatibilty with the latest version of Dokan
+- [New] Products go offline right after vacation mode is activated.
+
+v1.1 -> 3 January, 2016
+------------------------
+
+ - [fix] Fixed updating product status properly on switch between closing styles
+ - [fix] Fixed showing Notice on Store page
+
+v1.0 -> 25 October, 2015
+------------------------
+
+ - [fix] Undefined index on save
+ - [fix] Hooks updated according to dokan plugin.
+
+v0.3 -> 4 March, 2015
+-------------------------
+
+ - [fix] Styling issue
+ - [fix] Localization bug fix
+ - [fix] Datepicker issue

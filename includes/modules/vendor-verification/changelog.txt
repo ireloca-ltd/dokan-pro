@@ -1,0 +1,9 @@
+v1.3 - 18 December, 2016
+------------------------
+ - [fix] Conflict with SMS verification plugin.
+ - [fix] Text domains
+
+v1.2 September 7, 2015
+------------------------
+ - [fix] CSS changed for social Icons of verification widget only
+ - [fix] Widget compatibility to WP 4.3

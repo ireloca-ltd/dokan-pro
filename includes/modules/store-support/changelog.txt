@@ -1,0 +1,44 @@
+v1.3.5 (July 30, 2017)
+===================
+ - [new] Allow Customers to refer Order Number with Support Ticket
+ - [tweak] Style issues fixed with Support Button on Store Tab
+ - [fix] Timestamp showing incorrect time for Support Replies
+
+v1.3.4 (March 15, 2017)
+===================
+ - [new]   Support Tickets link for customers added to My account menu
+ - [new] added filters `dokan_get_topic_by_seller_qry_args`, `dokan_support_get_single_topic_args`, `dss_topic_count_where_clause`.
+ - [new] added hook `dss_ticket_mail_sent` on email sent action
+ - [tweak] added compatibility for dokan 2.5.5
+ - [removed] deprecated function `wp_get_current_user`.
+
+v1.3.2 (October 15, 2015)
+===================
+ - [tweak] Responding to hook update of dokan
+ - [tweak] comment_status always open for new topics
+
+v1.3.1 (September 7, 2015)
+===================
+ - [fix] My account template loader fixed
+ - [fix] Widget compatibility to WP 4.3
+
+v1.3 (August 6, 2015)
+===================
+ - [new] Added Widget to Show Store Support Button only on Store Pages
+ - [tweak] Sellers can now see their Store Support Button of Store page
+ - [tweak] JS and CSS updated
+
+v1.2 (August 2, 2015)
+===================
+ - [fix] JS issue fixed
+
+
+v1.1 (July 13, 2015)
+===================
+ - [fix] My Account navigation page.
+ - [fix] Dokan v2.4 compatible
+
+
+v1.0
+===================
+ - Initial release

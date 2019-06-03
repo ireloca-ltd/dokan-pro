@@ -1,0 +1,63 @@
+.dokan-spinner {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: url('../images/spinner-2x.gif') center center no-repeat;
+  z-index: 99;
+  background-size: 20px;
+}
+.dokan-geolocation-options {
+  margin-bottom: 20px;
+}
+.dokan-geolocation-product-location-container {
+  position: relative;
+  display: block;
+}
+.dokan-geolocation-product-location-container #_dokan_geolocation_product_location {
+  padding-right: 40px;
+}
+.dokan-geolocation-product-location-container i.locate-icon {
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  cursor: pointer;
+  right: 10px;
+  position: absolute;
+  top: 50%;
+  background-size: contain;
+}
+#dokan-geolocation-product-location-map {
+  width: 100%;
+  height: 250px;
+  margin-top: 10px;
+}
+.dokan-geolocation-row {
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.dokan-geolocation-row:before,
+.dokan-geolocation-row:after {
+  content: " ";
+  display: table;
+}
+.dokan-geolocation-row:after {
+  clear: both;
+}
+.dokan-geolocation-row .dokan-geolocation-col-7,
+.dokan-geolocation-row .dokan-geolocation-col-5 {
+  float: left;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.dokan-geolocation-row .dokan-geolocation-col-7 {
+  width: 58.333333%;
+}
+.dokan-geolocation-row .dokan-geolocation-col-5 {
+  width: 41.666667%;
+}
+.dokan-geolocation-row #dokan-seller-listing-wrap ul.dokan-seller-wrap {
+  margin: 0;
+}

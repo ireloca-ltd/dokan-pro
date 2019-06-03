@@ -1,0 +1,46 @@
+v1.5.2 -> Aug 2, 2017
+-----------------------
+- [new] Added attribute options in auction product
+- [fix] Multiple category does not saving
+- [fix] Auction menu not showing for new register user
+- [tweak] Added class selector for managing product html content
+- [tweak] Auto rewrite flush during activation
+
+v1.5.1 -> May 14, 2017
+-----------------------
+- [new] Added templating system for overriding auction templates
+- [new] Added sealed bidding feature in frontend
+- [fix] Fix proxy bidding issue
+- [fix] Exclude auction product from seller product listing
+
+v1.5.0 -> May 3, 2017
+-----------------------
+- [new] Added support for WooCommerce 3.0+
+- [new] Gallery image support in add and edit product page
+- [new] Tag support in add and edit product page
+- [new] Visibility support in add and edit product page
+- [tweak] New design for add and edit product page
+- [tweak] Remove support for older version(2.3 or less) of dokan plugin
+
+v1.4 -> December 20, 2016
+-----------------------
+- [Fix] Date format updated to `yy-mm-dd`
+- [Fix] Typo on text domain
+- [Tweak] The auction feature is enabled by default for everyone. Can be turned off from profile.
+- [Tweak] Stock field is removed
+
+v1.3 -> Jan 3, 2016
+-----------------------
+- [tweak] Added Auction Re-list option on Front-end
+- [fix] Ajax URL fixed and made compatible with DOKAN latest version
+- [fix] Edit link fixed for auction products on list view
+- [fix] Added Missing text domains
+
+
+v1.2 -> September 7, 2015
+-----------------------
+- [fix] Dirname added and include file error fixed
+
+v1.1 -> July 12, 2015
+-----------------------
+- Initial Release

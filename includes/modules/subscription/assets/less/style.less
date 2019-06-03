@@ -1,0 +1,160 @@
+.dokan-subscription-content {
+    .seller_subs_info{
+        background: #fff;
+        padding: 15px;
+        margin-bottom: 30px;
+        box-shadow: 0px 0px 25px 0px #ddd;
+
+        span {
+            color:#f05025;
+            font-weight: bold;
+            font-style: italic;
+        }
+    }
+
+    .pack_content_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 60px;
+
+        .product_pack_item {
+            position: relative;
+            background: #fff;
+            padding: 15px;
+            width: 31%;
+            margin-right: 20px;
+            margin-bottom: 70px;
+            -webkit-box-shadow: 0px 0px 25px 0px #ddd;
+            -moz-box-shadow: 0px 0px 25px 0px #ddd;
+            -ms-box-shadow: 0px 0px 25px 0px #ddd;
+            box-shadow: 0px 0px 25px 0px #ddd;
+            display: flex;
+            justify-content: center;
+
+            &.current_pack {
+                border-bottom: 2px solid #f05025;
+            }
+
+            .pack_price {
+                width: 90px;
+                height: 90px;
+                position: absolute;
+                background: #f05025;
+                color: #fff;
+                text-align: center;
+                border-radius: 120px;
+                top: -47px;
+                left: 34%;
+                font-size: 20px;
+                padding-top: 25px;
+
+                .dps-rec-period {
+                    font-size: 16px;
+                }
+            }
+
+            .pack_content {
+                margin-top: 40px;
+
+                h2 {
+                    text-align: center;
+                    font-size: 22px;
+                    margin-bottom: 25px;
+                }
+
+                ul {
+                    margin: 0px; padding: 0px;
+
+                    li {
+                        padding: 5px 5px;
+                        border-bottom: 1px solid #fafafa;
+                        text-align: center;
+
+                        &:last-child {
+                            border-bottom: none;
+                        }
+                    }
+                }
+
+                p,.pack_data_option {
+                    text-align: center;
+                }
+
+                .pack_data_option {
+                    border-top: 1px solid #fafafa;
+                    padding-top: 10px;
+                    margin-bottom: 46px;
+                }
+            }
+
+            .buy_pack_button {
+                position: absolute;
+                bottom: 15px;
+            }
+        }
+    }
+}
+
+
+.woocommerce_options_panel .subscription_pricing {
+    float: left;
+    clear: both;
+    height: 100%;
+    width: 100%;
+}
+.woocommerce_options_panel .subscription_pricing .description {
+    font-style: normal;
+}
+.subscription_pricing .form-field,
+.subscription_pricing .form-field *,
+.variable_subscription_pricing .form-field,
+.variable_subscription_pricing .form-field *,
+.variable_subscription_trial .form-field,
+.variable_subscription_trial .form-field * {
+    float:left;
+}
+p._subscription_price_field,
+p._subscription_period_field,
+p._subscription_length_field,
+p._subscription_sign_up_fee_field {
+    display: inline-block;
+}
+
+._subscription_period_field{
+    width:140px !important;
+    padding-left:10px !important;
+}
+
+
+
+.dokan-billing-cycle-wrap P {
+    float: left;
+}
+
+.dokan-billing-cyle-clear {
+    clear: both;
+}
+._subscription_period_field  {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.dps-pack{
+    background: #eee;
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+.dps-pack-price{
+    text-align: center;
+}
+.dps-pack-wrappper{
+    border: 1px solid #D3CED2;
+    text-align: center;
+}
+.pack_content > p{
+    margin-bottom: 10px;
+}
+#dokan-subscription-pack{
+    margin-top: 5px;
+}

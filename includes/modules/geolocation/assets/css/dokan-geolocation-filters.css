@@ -1,0 +1,170 @@
+.dokan-geolocation-location-filters .dokan-row {
+  margin-right: -10px;
+  margin-left: -10px;
+}
+.dokan-geolocation-location-filters .dokan-w4,
+.dokan-geolocation-location-filters .dokan-w3,
+.dokan-geolocation-location-filters .dokan-w6,
+.dokan-geolocation-location-filters .dokan-w12 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.dokan-geolocation-location-filters .dokan-geo-filters-column {
+  margin-bottom: 15px;
+}
+.dokan-geolocation-location-filters .dokan-geo-filters-column .dokan-hide {
+  display: none;
+}
+.dokan-geolocation-location-filters input,
+.dokan-geolocation-location-filters select {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 9px 8px;
+  font-size: 14px;
+  line-height: 1.5;
+  height: 44px;
+}
+.dokan-geolocation-location-filters button.dokan-btn {
+  width: 100%;
+  height: 44px;
+}
+.dokan-geolocation-location-filters .dokan-input-group-btn {
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-left: 0;
+  border-radius: 3px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  cursor: pointer;
+  vertical-align: top;
+}
+.dokan-geolocation-location-filters .dokan-input-group-btn .dokan-geo-input-group-btn {
+  display: block;
+  padding: 0 8px;
+  font-size: 13px;
+  line-height: 3.3;
+}
+.dokan-geolocation-location-filters .dokan-input-group-btn .dokan-geo-caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid \9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+.dokan-geolocation-location-filters .dokan-input-group-btn .dokan-geo-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+.dokan-geolocation-location-filters .dokan-input-group-btn .dokan-geo-dropdown-menu.dropdown-menu-right {
+  right: 0;
+  left: auto;
+}
+.dokan-geolocation-location-filters .dokan-input-group-btn .dokan-geo-dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #333;
+  white-space: nowrap;
+  box-shadow: none;
+}
+.dokan-geolocation-location-filters .dokan-input-group-btn .dokan-geo-dropdown-menu > li > a:hover,
+.dokan-geolocation-location-filters .dokan-input-group-btn .dokan-geo-dropdown-menu > li > a:focus {
+  color: #262626;
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
+.dokan-geolocation-location-filters .dokan-input-group-btn.open > .dokan-geo-dropdown-menu {
+  display: block;
+}
+.dokan-geolocation-location-filters .dokan-input-group-btn.open > a {
+  outline: 0;
+}
+.dokan-geolocation-location-filters .dokan-input-group .dokan-form-control {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.dokan-geolocation-location-filters .dokan-input-group.no-dropdown .dokan-form-control {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.dokan-geolocation-location-filters .location-address {
+  position: relative;
+}
+.dokan-geolocation-location-filters .location-address input {
+  padding-right: 32px;
+}
+.dokan-geolocation-location-filters .location-address .locate-icon,
+.dokan-geolocation-location-filters .location-address .locate-loader {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  cursor: pointer;
+  background-size: contain;
+}
+.dokan-geolocation-location-filters .range-slider-container {
+  margin-bottom: 15px;
+}
+.dokan-geolocation-location-filters input[type="range"].dokan-range-slider {
+  -webkit-appearance: none;
+  width: calc(100% - 90px);
+  height: 4px;
+  padding: 0;
+  margin-top: 7px;
+  border-radius: 2px;
+  background: #f1f1f1;
+  border-color: #ccc;
+  outline: none;
+  opacity: 1;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+.dokan-geolocation-location-filters input[type="range"].dokan-range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #f1f1f1;
+  border: 2px solid #f2624d;
+  cursor: pointer;
+}
+.dokan-geolocation-location-filters input[type="range"].dokan-range-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #f1f1f1;
+  border: 2px solid #f2624d;
+  cursor: pointer;
+}
+.dokan-geolocation-location-filters .dokan-range-slider-value {
+  width: 90px;
+  font-size: 12px;
+}

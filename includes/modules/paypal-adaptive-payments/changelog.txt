@@ -1,0 +1,55 @@
+====== Changelog ======
+
+v1.1.0 - 09 May, 2017
+------------------------
+- [new] WooCommerce 3.0+ support added
+- [new] Sellers are now labeled as Vendor
+- [new] Paypal Adaptive payment SDK updated to latest version
+- [new] Paypal php SDK Core updated to latest version
+- [tweak] Reverse payment in case of failure for parallel payments.
+- [tweak] Order properties made compatible
+
+v1.0.5 - 18 December, 2016
+------------------------
+- [new] Show error message for invalid payments.
+- [new] Show error message if single seller mode is enabled but has multiple vendor's products in cart.
+- [tweak] Error messages are edited to be more obvious.
+
+v1.0.4 - 14 August, 2016
+------------------------
+- [tweak] paypal-adaptive-sdk from 3.6.0 to 3.9.2
+- [tweak] Add option for select fees payer on chained payment
+- [fix] Conflict with seller verification
+- [fix] Select box on chain payment with no parcentage of admin
+- [fix] Sandbox ssl issue
+
+v1.0.3 - 3 January, 2016
+------------------------
+- [fix] Single seller mode checkbox issue fixed on payment system toggle
+
+v1.0.2 - 7 September, 2015
+------------------------
+- [fix] Plugin updater fix (plugin_information)
+
+v1.0.1 - 26 August, 2015
+------------------------
+- [fix] Fix subscription payment and normal payment gateway selected issue
+- [fix] PayPal SDK SSL version changed to 4
+- [fix] 100% seller amount issue fixed
+
+v1.0 - 25 Sep, 2014
+------------------------
+- [new] Single seller mode added and set the seller as primary receiver
+- [new] Customer shipping details added to PayPal
+
+v0.1.2
+------------------------
+- [fix] Fix cart error when adding more than 5 products
+
+v0.1.1
+------------------------
+- [fix] Hide withdraw page bug fix
+
+v0.1
+------------------------
+- Initial Release

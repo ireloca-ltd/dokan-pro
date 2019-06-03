@@ -1,0 +1,103 @@
+.dokan-store-support-btn {
+  margin-top: 3px;
+  width: 100%;
+}
+.dokan-support-login-wrapper {
+  width: 430px !important;
+  padding: 16px !important;
+  margin: 0 auto !important;
+}
+
+.dokan-support-login-wrapper h2 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.dokan-support-table .dokan-support-customer-name img {
+  float: left;
+  margin-right: 10px;
+}
+
+.dokan-support-intro-text {
+  padding: 10px 0px;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+.dokan-support-topic-counts {
+    padding-left: 0px !important;
+}
+.dokan-support-topic-counts li{
+    display: inline-block;
+}
+.dokan-support-topic-counts li.active a {
+  color: #999;
+}
+.dokan-support-topic-wrapper .dokan-support-single-title {
+  margin-bottom: 30px;
+}
+.dokan-support-topic-wrapper .dokan-support-topic-header {
+  background: #222;
+  color: #fff;
+  padding: 10px;
+}
+.dokan-support-topic-wrapper .dokan-suppport-topic-body {
+  margin-top: 20px;
+  border: 2px solid #eee;
+  margin-bottom: 0px;
+}
+.dokan-support-topic-wrapper .dokan-suppport-topic-body * {
+  box-sizing: border-box;
+}
+
+.dokan-support-topic-wrapper .dokan-support-user-image {
+  text-align: center;
+  padding: 15px 0px;
+  background: #eee;
+}
+.dokan-support-topic-wrapper .dokan-support-user-image img {
+  margin-bottom: 6px;
+}
+.dokan-support-topic-wrapper .dokan-support-user-image h4,
+.dokan-support-topic-wrapper .dokan-support-user-image p {
+  margin: 0;
+}
+.dokan-support-topic-wrapper .dokan-support-date-time {
+  font-size: 12px;
+  font-style: italic;
+}
+.dokan-support-topic-wrapper .dokan-support-reply {
+  padding: 0px 20px;
+}
+.dokan-support-topic-wrapper .dokan-support-user-image {
+  _border-right: 2px solid #eee;
+}
+.dokan-support-topic-wrapper ul.dokan-support-commentlist {
+  padding-left: 0px;
+  list-style: none;
+}
+.dokan-support-topic-wrapper ul.dokan-support-commentlist li {
+  padding: 0;
+  margin: 0;
+}
+
+.dokan-support-topic-wrapper .comment-reply-title {
+  display: none;
+}
+.dokan-support-topic-wrapper .comment-textarea {
+  width: 100%;
+}
+.dokan-support-topic-wrapper .dokan-support-topic-select {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.dokan-support-reply-form #respond,
+.dokan-support-reply-form #respond form {
+  margin: 0;
+}
+
+.dokan-single-store .dokan-store-tabs ul li.dokan-store-support-btn-wrap{
+    margin-right: 5px;
+}

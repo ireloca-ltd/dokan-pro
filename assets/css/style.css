@@ -1,0 +1,960 @@
+/**
+ * Dokan Pro Plugin main less file
+ *
+ * Import all individual page styles
+ * in this less file which compile to style.css
+ * file in assets/css directoryS
+ */
+.dokan-spinner {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: url('../images/spinner-2x.gif') center center no-repeat;
+  z-index: 99;
+  background-size: 20px;
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Feb 6, 2017, 11:01:53 AM
+    Author     : rafsun
+*/
+.dokan-variation-loader {
+  background: url("../images/ajax-loader@2x.gif") no-repeat;
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  top: 45%;
+  left: 50%;
+}
+li.dokan-share-btn-wrap .dokan-share-btn {
+  margin-top: 3px;
+  margin-right: 10px;
+}
+.dokan-share-popup-wrapper {
+  text-align: center;
+  max-width: 350px;
+  padding: 5px;
+}
+ul.dokan-account-migration-lists {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid #eee;
+}
+ul.dokan-account-migration-lists li {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+ul.dokan-account-migration-lists li:last-child {
+  border-bottom: none;
+}
+ul.dokan-account-migration-lists li .left-content {
+  text-align: left;
+  flex: 2;
+}
+ul.dokan-account-migration-lists li .left-content p {
+  margin: 0px;
+}
+ul.dokan-account-migration-lists li .right-content {
+  text-align: right;
+  flex: 1;
+}
+@-webkit-keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+.dokan-progress {
+  overflow: hidden;
+  height: 20px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.dokan-progress-bar {
+  float: left;
+  width: 0%;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #337ab7;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+.dokan-progress-striped .dokan-progress-bar,
+.dokan-progress-bar-striped {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-size: 40px 40px;
+}
+.dokan-progress.active .dokan-progress-bar,
+.dokan-progress-bar.active {
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+  animation: progress-bar-stripes 2s linear infinite;
+}
+.dokan-progress-bar-success {
+  background-color: #5cb85c;
+}
+.progress-striped .dokan-progress-bar-success {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.dokan-progress-bar-info {
+  background-color: #5bc0de;
+}
+.progress-striped .dokan-progress-bar-info {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.dokan-progress-bar-warning {
+  background-color: #f0ad4e;
+}
+.progress-striped .dokan-progress-bar-warning {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.dokan-progress-bar-danger {
+  background-color: #d9534f;
+}
+.progress-striped .dokan-progress-bar-danger {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 6, 2017, 10:57:42 AM
+    Author     : rafsun
+*/
+.dokan-dashboard-content article.dashboard-content-area .dokan-announcement-widget {
+  min-height: 310px;
+}
+.dokan-dashboard-content article.dashboard-content-area .dokan-announcement-widget .dokan-no-announcement .annoument-no-wrapper {
+  height: 100%;
+  margin: 70px auto;
+  text-align: center;
+}
+.dokan-dashboard-content article.dashboard-content-area .dokan-announcement-widget .dokan-no-announcement .annoument-no-wrapper .dokan-announcement-icon {
+  font-size: 100px;
+  color: #e3e3e3;
+  -moz-animation: ring 8s 1s ease-in-out infinite !important;
+  -moz-transform-origin: 50% 4px;
+  -webkit-animation: ring 8s 1s ease-in-out infinite !important;
+  -webkit-transform-origin: 50% 4px;
+  animation: ring 8s 1s ease-in-out infinite !important;
+  transform-origin: 50% 4px;
+}
+.dokan-dashboard-content article.dashboard-content-area .dokan-announcement-widget .dokan-no-announcement .annoument-no-wrapper p {
+  margin-top: 10px;
+  color: #a6a6a6;
+  font-size: 18px;
+}
+.dokan-dashboard-content article.dashboard-content-area .dokan-announcement-widget .widget-title {
+  margin-bottom: 0px;
+}
+.dokan-dashboard-content article.dashboard-content-area .dokan-announcement-widget ul {
+  margin-bottom: 0px;
+}
+.dokan-dashboard-content article.dashboard-content-area .dokan-announcement-widget ul li {
+  border-bottom: 1px solid #e8e8e8;
+}
+.dokan-dashboard-content article.dashboard-content-area .dokan-announcement-widget ul li .dokan-dashboard-announce-content {
+  width: 80%;
+  font-size: 13px;
+  color: #656565;
+  padding-left: 4px;
+}
+.dokan-dashboard-content article.dashboard-content-area .dokan-announcement-widget ul li .dokan-dashboard-announce-content h3 {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 16px 0px 0px;
+  padding: 5px 0px;
+  color: #6f6f6f;
+}
+.dokan-dashboard-content article.dashboard-content-area .dokan-announcement-widget ul li .dokan-dashboard-announce-date {
+  width: 20%;
+  height: 77px;
+  text-align: center;
+  line-height: 20px;
+  margin: 7px 0px;
+}
+.dokan-dashboard-content article.dashboard-content-area .dokan-announcement-widget ul li .dokan-dashboard-announce-date .announce-day {
+  padding-top: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.dokan-dashboard-content article.dashboard-content-area .dokan-announcement-widget ul li .dokan-dashboard-announce-date .announce-year {
+  font-size: 15px;
+}
+.dokan-dashboard-content article.dashboard-content-area .dokan-announcement-widget ul li .dokan-dashboard-announce-read {
+  background-color: #f3f3f3;
+  color: #8b8b8b;
+}
+.dokan-dashboard-content article.dashboard-content-area .dokan-announcement-widget ul li .dokan-dashboard-announce-unread {
+  background-color: #f05025;
+  color: #f3f3f3;
+}
+.dokan-dashboard-content article.dashboard-content-area .dokan-announcement-widget ul li:last-child {
+  border-bottom: none;
+}
+@-webkit-keyframes ring {
+  0% {
+    transform: rotate(0);
+  }
+  1% {
+    transform: rotate(30deg);
+  }
+  3% {
+    transform: rotate(-28deg);
+  }
+  5% {
+    transform: rotate(34deg);
+  }
+  7% {
+    transform: rotate(-32deg);
+  }
+  9% {
+    transform: rotate(30deg);
+  }
+  11% {
+    transform: rotate(-28deg);
+  }
+  13% {
+    transform: rotate(26deg);
+  }
+  15% {
+    transform: rotate(-24deg);
+  }
+  17% {
+    transform: rotate(22deg);
+  }
+  19% {
+    transform: rotate(-20deg);
+  }
+  21% {
+    transform: rotate(18deg);
+  }
+  23% {
+    transform: rotate(-16deg);
+  }
+  25% {
+    transform: rotate(14deg);
+  }
+  27% {
+    transform: rotate(-12deg);
+  }
+  29% {
+    transform: rotate(10deg);
+  }
+  31% {
+    transform: rotate(-8deg);
+  }
+  33% {
+    transform: rotate(6deg);
+  }
+  35% {
+    transform: rotate(-4deg);
+  }
+  37% {
+    transform: rotate(2deg);
+  }
+  39% {
+    transform: rotate(-1deg);
+  }
+  41% {
+    transform: rotate(1deg);
+  }
+  43% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+@-moz-keyframes ring {
+  0% {
+    transform: rotate(0);
+  }
+  1% {
+    transform: rotate(30deg);
+  }
+  3% {
+    transform: rotate(-28deg);
+  }
+  5% {
+    transform: rotate(34deg);
+  }
+  7% {
+    transform: rotate(-32deg);
+  }
+  9% {
+    transform: rotate(30deg);
+  }
+  11% {
+    transform: rotate(-28deg);
+  }
+  13% {
+    transform: rotate(26deg);
+  }
+  15% {
+    transform: rotate(-24deg);
+  }
+  17% {
+    transform: rotate(22deg);
+  }
+  19% {
+    transform: rotate(-20deg);
+  }
+  21% {
+    transform: rotate(18deg);
+  }
+  23% {
+    transform: rotate(-16deg);
+  }
+  25% {
+    transform: rotate(14deg);
+  }
+  27% {
+    transform: rotate(-12deg);
+  }
+  29% {
+    transform: rotate(10deg);
+  }
+  31% {
+    transform: rotate(-8deg);
+  }
+  33% {
+    transform: rotate(6deg);
+  }
+  35% {
+    transform: rotate(-4deg);
+  }
+  37% {
+    transform: rotate(2deg);
+  }
+  39% {
+    transform: rotate(-1deg);
+  }
+  41% {
+    transform: rotate(1deg);
+  }
+  43% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 6, 2017, 11:07:51 AM
+    Author     : rafsun
+*/
+.dokan-panel .dokan-panel-body .woocommerce_order_items_wrapper table.woocommerce_order_items tbody tr td div small.refunded {
+  color: #f05025;
+}
+.dokan-panel .dokan-panel-body .wc-order-data-row table.wc-order-totals {
+  float: right;
+}
+.dokan-panel .dokan-panel-body .wc-order-data-row table.wc-order-totals tbody tr td.label {
+  color: #000;
+}
+.dokan-panel .dokan-panel-body .wc-order-data-row table.wc-order-totals tbody tr td.refunded-total {
+  color: #f05025;
+}
+.dokan-panel .dokan-panel-body .wc-order-data-row .add-items {
+  padding-top: 10px;
+  float: right;
+}
+.dokan-panel .dokan-panel-body .wc-order-data-row .refund-actions {
+  float: right;
+}
+.dokan-coupon-content .dashboard-coupons-area .dokan-coupon-header {
+  margin-bottom: 20px;
+}
+.dokan-coupon-content .dashboard-coupons-area .dokan-coupon-header .left-header-content {
+  width: 40%;
+}
+.dokan-coupon-content .dashboard-coupons-area .dokan-coupon-header .left-header-content h1 {
+  padding: 0px;
+  margin: 0px;
+}
+.dokan-coupon-content .dashboard-coupons-area .dokan-coupon-header .right-header-content {
+  width: 40%;
+}
+.dokan-coupon-content .dashboard-coupons-area table tr td {
+  vertical-align: top;
+}
+.dokan-coupon-content .code:before,
+.dokan-coupon-content .code a:before,
+.dokan-coupon-content .code span:before,
+.dokan-coupon-content .code:after,
+.dokan-coupon-content .code a:after,
+.dokan-coupon-content .code span:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 8px;
+  height: 4px;
+  background: #f7f7f7;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0 2px 0 0 rgba(255, 255, 255, 0.3), inset 0 2px 0 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 0 0 rgba(255, 255, 255, 0.3), inset 0 2px 0 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 0 0 rgba(255, 255, 255, 0.3), inset 0 2px 0 0 rgba(0, 0, 0, 0.1);
+}
+.dokan-coupon-content .code {
+  overflow: hidden;
+  vertical-align: middle;
+  margin: 0 8px 0 0;
+  background: #ececec;
+  color: #21759A;
+  text-shadow: 0 1px 0 #ddd;
+  padding: 2px;
+  position: relative;
+  float: left;
+  line-height: 1em;
+  -moz-box-shadow: 0 2px 0 0 #dddddd;
+  -webkit-box-shadow: 0 2px 0 0 #dddddd;
+  box-shadow: 0 2px 0 0 #dddddd;
+  font-weight: bold;
+}
+.dokan-coupon-content .code:before {
+  bottom: 5px;
+  left: 0;
+  margin: 0 0 0 -4px;
+}
+.dokan-coupon-content .code:after {
+  top: 5px;
+  left: 0;
+  margin: 0 0 0 -4px;
+}
+.dokan-coupon-content .code a,
+.dokan-coupon-content .code span {
+  float: left;
+  padding: 0 4px;
+  color: #21759A;
+}
+.dokan-coupon-content .code a:before,
+.dokan-coupon-content .code span:before {
+  bottom: 5px;
+  right: 0;
+  margin: 0 -4px 0 0;
+}
+.dokan-coupon-content .code a:after,
+.dokan-coupon-content .code span:after {
+  content: "";
+  top: 5px;
+  right: 0;
+  margin: 0 -4px 0 0;
+}
+.dokan-coupon-content .code a span,
+.dokan-coupon-content .code span span {
+  border: 1px dashed #ccc;
+  padding: .5em 6px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+.dokan-coupon-content .code a span:before,
+.dokan-coupon-content .code span span:before {
+  top: 50%;
+  left: 0;
+  margin: -2px 0 0 -4px;
+}
+.dokan-coupon-content .code a span:after,
+.dokan-coupon-content .code span span:after {
+  top: 50%;
+  right: 0;
+  margin: -2px -4px 0 0;
+}
+.dokan-coupon-content .code:hover {
+  background: #975e83;
+  color: #fff;
+  text-shadow: 0 1px 0 #5a324b;
+}
+.dokan-coupon-content .code:hover a,
+.dokan-coupon-content .code:hover span {
+  color: #fff;
+}
+.dokan-coupon-content .code:hover a span,
+.dokan-coupon-content .code:hover span span {
+  border: 1px dashed #bb82a7;
+}
+.dokan-coupon-content .row-actions {
+  visibility: hidden;
+  font-size: 12px;
+  color: #ccc;
+  clear: both;
+  padding-top: 8px;
+}
+.dokan-coupon-content .row-actions .delete a {
+  color: #A05;
+}
+.dokan-coupon-content .row-actions .delete a:hover {
+  color: red;
+}
+.dokan-coupon-content tr:hover .row-actions {
+  visibility: visible;
+}
+.dokan-reports-content .dokan-reports-area h1 {
+  margin: 0px 0px 20px;
+}
+.dokan-reports-content .dokan-reports-area .dokan-reports-wrap {
+  margin-top: 20px;
+}
+.dokan-reports-content .dokan-reports-area .dokan-reports-wrap .report-left {
+  width: 28%;
+  margin-right: 10px;
+}
+.dokan-reports-content .dokan-reports-area .dokan-reports-wrap .report-right {
+  width: 68%;
+}
+.dokan-reports-content .dokan-reports-area ul.chart-legend {
+  background: #fff;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #EDEDED;
+}
+.dokan-reports-content .dokan-reports-area ul.chart-legend li {
+  color: #aaa;
+  padding: 13px 18px;
+  border-bottom: 1px solid #EDEDED;
+  font-weight: normal;
+  font-size: 13px;
+}
+.dokan-reports-content .dokan-reports-area ul.chart-legend li strong {
+  display: block;
+  color: #464646;
+  font-size: 30px;
+  font-weight: normal;
+}
+.dokan-reports-content .dokan-reports-area .report-filter {
+  margin-top: 15px;
+}
+.dokan-reports-content .dokan-reports-area .report-filter select {
+  border: 1px solid #EDEDED;
+  padding: 2px 5px;
+}
+.dokan-reports-content .dokan-reports-area table.table {
+  margin-top: 15px;
+}
+.dokan-reports-content .dokan-reports-area table.table .progress {
+  margin-bottom: 0;
+}
+.dokan-reports-content .dokan-reports-area .dokan-reports-main h3 {
+  margin: 0 0 15px 0;
+}
+.dokan-reports-content .dokan-reports-area .dokan-reports-main .chart-placeholder.main {
+  height: 435px;
+}
+.dokan-reports-content .dokan-reports-area .chart-tooltip {
+  position: absolute;
+  display: none;
+  line-height: 1;
+  background: #333;
+  color: #fff;
+  padding: 3px 5px;
+  font-size: 11px;
+  border-radius: 3px;
+}
+.dokan-reviews-content .dokan-reviews-area h1 {
+  margin: 0px;
+  padding: 0px;
+}
+.dokan-reviews-content .dokan-reviews-area #dokan-comments_menu ul li {
+  display: inline-block;
+  padding: 0 5px !important;
+}
+.dokan-reviews-content .dokan-reviews-area .dokan-comments-wrap ul.dokan-cmt-row-actions {
+  visibility: hidden;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+.dokan-reviews-content .dokan-reviews-area .dokan-comments-wrap ul.dokan-cmt-row-actions a {
+  text-decoration: none;
+}
+.dokan-reviews-content .dokan-reviews-area .dokan-comments-wrap ul.dokan-cmt-row-actions li {
+  display: inline;
+  border-right: 1px solid #EDEDED;
+  padding-right: 5px;
+  margin: 0 !important;
+}
+.dokan-reviews-content .dokan-reviews-area .dokan-comments-wrap ul.dokan-cmt-row-actions li:last-child {
+  border-right: none;
+}
+.dokan-reviews-content .dokan-reviews-area .dokan-comments-wrap select {
+  padding: 5px;
+  border: 1px solid #EDEDED;
+}
+.dokan-reviews-content .dokan-reviews-area .dokan-comments-wrap #dokan-comments-table th.col-check {
+  width: 5%;
+  padding: 0 0 0 10px;
+  vertical-align: middle;
+}
+.dokan-reviews-content .dokan-reviews-area .dokan-comments-wrap #dokan-comments-table td.col-author,
+.dokan-reviews-content .dokan-reviews-area .dokan-comments-wrap #dokan-comments-table th.col-author {
+  width: 33%;
+}
+.dokan-reviews-content .dokan-reviews-area .dokan-comments-wrap #dokan-comments-table td.col-author .dokan-author-img,
+.dokan-reviews-content .dokan-reviews-area .dokan-comments-wrap #dokan-comments-table th.col-author .dokan-author-img {
+  float: left;
+  margin-right: 5px;
+}
+.dokan-reviews-content .dokan-reviews-area .dokan-comments-wrap #dokan-comments-table td.col-author .dokan-author-meta,
+.dokan-reviews-content .dokan-reviews-area .dokan-comments-wrap #dokan-comments-table th.col-author .dokan-author-meta {
+  float: left;
+}
+.dokan-reviews-content .dokan-reviews-area .dokan-comments-wrap #dokan-comments-table td.col-content,
+.dokan-reviews-content .dokan-reviews-area .dokan-comments-wrap #dokan-comments-table th.col-content {
+  width: 60%;
+}
+.dokan-reviews-content .dokan-reviews-area .dokan-comments-wrap #dokan-comments-table td.col-link,
+.dokan-reviews-content .dokan-reviews-area .dokan-comments-wrap #dokan-comments-table th.col-link {
+  width: 25%;
+}
+.dokan-reviews-content .dokan-reviews-area .dokan-comments-wrap #dokan-comments-table td,
+.dokan-reviews-content .dokan-reviews-area .dokan-comments-wrap #dokan-comments-table th {
+  vertical-align: top;
+}
+.dokan-reviews-content .dokan-reviews-area .dokan-comments-wrap #dokan-comments-table tr.pending {
+  background: #FFFFE0;
+}
+.dokan-reviews-content .dokan-reviews-area .dokan-comments-wrap #dokan-comments-table tr:hover .dokan-cmt-row-actions {
+  visibility: visible;
+}
+.dokan-reviews-content .dokan-reviews-area .dokan-comments-wrap #dokan-comments-table .dokan-comments-subdate {
+  font-size: 12px;
+  color: #7C7C7C;
+  margin-bottom: 8px;
+}
+.dokan-reviews-content .dokan-reviews-area .dokan-comments-wrap #dokan-comments-table .dokan-comment-edit-row tr.dokan-comment-edit-contact td {
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.dokan-reviews-content .dokan-reviews-area .dokan-comments-wrap #dokan-comments-table .dokan-comment-edit-row tr.dokan-comment-edit-contact td label {
+  padding-right: 10px;
+}
+.dokan-reviews-content .dokan-reviews-area .dokan-comments-wrap #dokan-comments-table .dokan-comment-edit-row tr.dokan-comment-edit-body td,
+.dokan-reviews-content .dokan-reviews-area .dokan-comments-wrap #dokan-comments-table .dokan-comment-edit-row tr.dokan-comment-edit-actions td {
+  padding-left: 55px;
+  padding-bottom: 10px;
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 6, 2017, 11:10:34 AM
+    Author     : rafsun
+*/
+.dokan-profile-completeness .dokan-alert {
+  margin-bottom: 0;
+}
+.dokan-settings-content .dokan-settings-area .dokan-seo-image {
+  position: relative;
+}
+.dokan-settings-content .dokan-settings-area .dokan-seo-image .dokan-remove-gravatar-image {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: #000;
+  top: 0;
+  left: 0;
+  opacity: .7;
+  font-size: 70px;
+  text-align: center;
+  color: #f00;
+  padding-top: 35px;
+  display: none;
+  border-radius: 0%;
+}
+.dokan-settings-content .dokan-settings-area .dokan-seo-image .gravatar-wrap .dokan-gravatar-img {
+  border-radius: 0%;
+  height: 150px !important;
+  width: 150px;
+}
+.dokan-settings-content .dokan-settings-area .dokan-seo-image:hover .dokan-remove-gravatar-image {
+  display: block;
+}
+table.dps-shipping-table {
+  padding: 10px;
+  width: 100%;
+}
+table.dps-shipping-table tr {
+  padding: 10px;
+}
+table.dps-shipping-table tr td {
+  padding: 10px;
+}
+table.dps-shipping-states {
+  padding: 10px;
+  width: 100%;
+}
+table.dps-shipping-states tr {
+  padding: 10px;
+}
+table.dps-shipping-states tr td {
+  padding: 10px;
+  width: 30%;
+}
+#dps-shipping-hidden-lcoation-content {
+  display: none;
+}
+.dokan-shipping-location-wrapper {
+  border-top: 1px solid #EDEDED;
+  padding-top: 15px;
+  margin-top: 30px;
+}
+.dokan-shipping-location-wrapper .dps-shipping-location-content {
+  border: 2px solid #eee;
+  margin-bottom: 15px;
+  position: relative;
+}
+.dokan-shipping-location-wrapper .dps-shipping-location-content table tr td {
+  padding: 10px 15px;
+}
+.dokan-shipping-location-wrapper .dps-shipping-location-content table.dps-shipping-table {
+  background: #F5F5F5;
+}
+.dokan-shipping-location-wrapper .dps-shipping-location-content table.dps-shipping-table tr td {
+  width: 50%;
+}
+.dokan-shipping-location-wrapper .dps-shipping-location-content .dps-shipping-remove {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  height: 25px;
+  width: 25px;
+  background: #fff;
+  color: #ccc;
+}
+.dokan-shipping-location-wrapper .dps-shipping-location-content .dps-shipping-remove:hover {
+  color: #fff;
+  background: #ccc;
+}
+.dokan-shipping-location-wrapper .dps-shipping-location-content table.dps-shipping-states {
+  text-align: center;
+}
+.dokan-shipping-location-wrapper .dps-shipping-location-content table.dps-shipping-states tr td:last-child {
+  vertical-align: middle;
+}
+.dokan-shipping-location-wrapper .dps-shipping-location-content table.dps-shipping-states .dps-add,
+.dokan-shipping-location-wrapper .dps-shipping-location-content table.dps-shipping-states .dps-remove {
+  color: #A8A8A8;
+  font-size: 11px;
+  border: 1px solid #eee;
+  padding: 3px 5px 2px 5px;
+  border-radius: 3px;
+}
+.dokan-shipping-location-wrapper .dps-shipping-location-content table.dps-shipping-states .dps-add:hover,
+.dokan-shipping-location-wrapper .dps-shipping-location-content table.dps-shipping-states .dps-remove:hover {
+  background: #eee;
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Feb 6, 2017, 11:12:49 AM
+    Author     : weDevs
+*/
+.dokan-single-store .store-review-wrap h2.headline {
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+.dokan-single-store .store-coupon-wrap {
+  margin-bottom: 10px;
+}
+.dokan-single-store .store-coupon-wrap:before,
+.dokan-single-store .store-coupon-wrap:after {
+  content: " ";
+  display: table;
+}
+.dokan-single-store .store-coupon-wrap:after {
+  clear: both;
+}
+.dokan-single-store .store-coupon-wrap .code:before,
+.dokan-single-store .store-coupon-wrap .code a:before,
+.dokan-single-store .store-coupon-wrap .code span.outside:before,
+.dokan-single-store .store-coupon-wrap .code span.inside:before,
+.dokan-single-store .store-coupon-wrap .code:after,
+.dokan-single-store .store-coupon-wrap .code a:after,
+.dokan-single-store .store-coupon-wrap .code span.outside:after,
+.dokan-single-store .store-coupon-wrap .code span.inside:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 8px;
+  height: 4px;
+  background: #f7f7f7;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0 2px 0 0 rgba(255, 255, 255, 0.3), inset 0 2px 0 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 0 0 rgba(255, 255, 255, 0.3), inset 0 2px 0 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 0 0 rgba(255, 255, 255, 0.3), inset 0 2px 0 0 rgba(0, 0, 0, 0.1);
+}
+.dokan-single-store .store-coupon-wrap .code {
+  overflow: hidden;
+  vertical-align: middle;
+  margin: 0 15px 15px 0;
+  background: #ececec;
+  color: #21759A;
+  text-shadow: 0 1px 0 #ddd;
+  padding: 2px;
+  position: relative;
+  float: left;
+  line-height: 1em;
+  -moz-box-shadow: 0 2px 0 0 #dddddd;
+  -webkit-box-shadow: 0 2px 0 0 #dddddd;
+  box-shadow: 0 2px 0 0 #dddddd;
+  font-weight: bold;
+  max-width: 250px;
+}
+.dokan-single-store .store-coupon-wrap .code:before {
+  bottom: 5px;
+  left: 0;
+  margin: 0 0 0 -4px;
+}
+.dokan-single-store .store-coupon-wrap .code:after {
+  top: 5px;
+  left: 0;
+  margin: 0 0 0 -4px;
+}
+.dokan-single-store .store-coupon-wrap .code span.outside {
+  float: left;
+  padding: 0 4px;
+  color: #21759A;
+}
+.dokan-single-store .store-coupon-wrap .code span.outside:before {
+  bottom: 5px;
+  right: 0;
+  margin: 0 -4px 0 0;
+}
+.dokan-single-store .store-coupon-wrap .code span.outside:after {
+  content: "";
+  top: 5px;
+  right: 0;
+  margin: 0 -4px 0 0;
+}
+.dokan-single-store .store-coupon-wrap .code span.outside span.inside {
+  border: 1px dashed #ccc;
+  padding: 15px 10px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  float: left;
+  text-align: center;
+}
+.dokan-single-store .store-coupon-wrap .code span.outside span.inside .coupon-title {
+  font-size: 20px;
+  padding-bottom: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+.dokan-single-store .store-coupon-wrap .code span.outside span.inside .coupon-body {
+  font-size: 14px;
+  font-weight: 500;
+}
+.dokan-single-store .store-coupon-wrap .code span.outside span.inside .coupon-details {
+  display: block;
+  color: #666;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.dokan-single-store .store-coupon-wrap .code span.outside span.inside .expiring-in {
+  font-size: 13px;
+  font-style: italic;
+  display: block;
+  color: #999;
+  margin-top: 5px;
+}
+.dokan-single-store .store-coupon-wrap .code span.outside span.inside:before {
+  top: 50%;
+  left: 0;
+  margin: -2px 0 0 -4px;
+}
+.dokan-single-store .store-coupon-wrap .code span.outside span.inside:after {
+  top: 50%;
+  right: 0;
+  margin: -2px -4px 0 0;
+}
+.dokan-product-list-inline-edit-form fieldset {
+  padding: 0;
+  margin: 0;
+}
+.dokan-product-list-inline-edit-form .dokan-inline-edit-column {
+  padding: 0 10px;
+}
+.dokan-product-list-inline-edit-form .dokan-inline-edit-field-row {
+  margin-bottom: 10px;
+}
+.dokan-product-list-inline-edit-form hr {
+  display: block;
+  margin: 12px 0;
+  opacity: 0;
+}
+.dokan-product-list-inline-edit-form .dokan-inline-edit-section-title {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.dokan-product-list-inline-edit-form label {
+  display: block;
+  margin: 8px 0 4px;
+  font-size: 14px;
+}
+.dokan-product-list-inline-edit-form .inline-edit-submit-button {
+  position: relative;
+}
+.dokan-product-list-inline-edit-form .inline-edit-submit-button .dokan-spinner {
+  top: 8px;
+  left: -30px;
+  visibility: hidden;
+}
+.dokan-product-list-inline-edit-form .inline-edit-submit-button.show-loading-animation .dokan-spinner {
+  visibility: visible;
+}
